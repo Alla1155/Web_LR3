@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve --open",
-    "watch": "webpack",
+    "start": "webpack-dev-server --open",
     "dev": "webpack",
     "build": "webpack"
   },
