@@ -1,0 +1,36 @@
+input {
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+img {
+    height: 40px;
+    float: left;
+    margin-right: 15px;
+    display: block;
+}
+
+.container{
+    padding: 15px;
+}
+
+h2{
+    margin-top: 5%;
+}
+
+button{
+  font-size: 20px;
+  width: 110px;
+  padding: 10px;
+  background-color:rgb(0, 200, 255);
+  border: 1px solid black;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+}

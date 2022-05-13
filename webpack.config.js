@@ -5,6 +5,7 @@ const webpack = require('webpack');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
+  //entry: ['./src/index.js', './src/index1.js'],
   entry: './src/index.js',
   mode:'development',
   module: {
@@ -32,6 +33,11 @@ module.exports = {
       template: 'src/index.html',
       filename:'index.html'
     }),
+    /*new HtmlWebpackPlugin({
+      template: 'src/index1.html',
+      filename:'index1.html',
+      chunks:[]
+    }),*/
     new webpack.ProvidePlugin({
       $: 'jquery',
       jQuery: 'jquery',
